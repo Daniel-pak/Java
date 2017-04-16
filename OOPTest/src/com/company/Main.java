@@ -43,7 +43,7 @@ public class Main {
         hamburger1.getOrder();
         hamburger1.total();
 
-        DeluxeBurger deluxeBurger = new DeluxeBurger("Chicken");
+        DeluxeBurger deluxeBurger = new DeluxeBurger("Chicken", new Additions(1, 1, 1, 1));
         deluxeBurger.getOrder();
         deluxeBurger.total();
 
@@ -51,6 +51,10 @@ public class Main {
 
         healthyBurger.getOrder();
         healthyBurger.total();
+
+        DeluxeBurger deluxeBurger1 = new DeluxeBurger(" Beef", new Additions(1, 0, 0 , 1));
+        deluxeBurger1.getOrder();
+        deluxeBurger1.total();
     }
 
 

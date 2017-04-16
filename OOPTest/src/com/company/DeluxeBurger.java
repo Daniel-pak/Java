@@ -7,8 +7,8 @@ public class DeluxeBurger extends Hamburger {
     private int drink;
     private int chips;
 
-    public DeluxeBurger(String meat) {
-        super("Bun", meat, new Additions(0, 0, 0, 0));
+    public DeluxeBurger(String meat, Additions additions) {
+        super("Deluxe", "Bun", meat, additions);
         this.drink = 1;
         this.chips = 1;
     }

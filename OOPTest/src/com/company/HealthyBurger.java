@@ -8,8 +8,8 @@ public class HealthyBurger extends Hamburger{
     private int redCabbage;
     private double total;
 
-    public HealthyBurger(Additions addition, int brusselSprouts, int redCabbage) {
-        super("Brown Rye Roll", "Tofu", addition);
+    public HealthyBurger(String name, Additions addition, int brusselSprouts, int redCabbage) {
+        super("Healthy", "Brown Rye Roll", name, addition);
         this.brusselSprouts = brusselSprouts;
         this.redCabbage = redCabbage;
     }

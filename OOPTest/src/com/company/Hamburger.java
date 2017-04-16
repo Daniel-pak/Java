@@ -4,13 +4,15 @@ package com.company;
  * Created by danielpak on 4/14/17.
  */
 public class Hamburger {
+    private String name;
     private String bread;
     private String meat;
     private Additions addition;
     private double burgerTotal;
     //method for total --> should override once extended classes are made
 
-    public Hamburger(String bread, String meat, Additions addition) {
+    public Hamburger(String name, String bread, String meat, Additions addition) {
+        this.name = name;
         this.bread = bread;
         this.meat = meat;
         this.addition = addition;
