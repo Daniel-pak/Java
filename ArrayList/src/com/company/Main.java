@@ -14,9 +14,11 @@ public class Main {
     //Be sure not to expose the inner workings of the Arraylist to MobilePhone
     //.e.g. no ints, no .get(i) etc
     //MobilePhone should do everything with Contact objects only.
-
+    private static MobilePhone mobile = new MobilePhone();
 
     public static void main(String[] args) {
-
+        mobile.runningPhone();
     }
+
+
 }
